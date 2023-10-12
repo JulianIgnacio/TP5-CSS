@@ -61,6 +61,8 @@ ul{
     flex-direction: column;
 }
 #i100{
+    max-width: 700px;
+    min-width: 300px;
     display: flex;
     align-items: stretch;
 }
