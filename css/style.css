@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    width: 100%;
+    background-color: gray;
+    padding: 20px 10px 20px 10px;
+}
+a:link, a:visited{
+    margin: auto;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;    
+    text-decoration: none;
+}
+a:hover, a:active {
+    background-color: gold;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+#divisionNav{
+    display: flex;
+    justify-content: space-around;
+}
+#titulo{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+#cards{
+    display: flex;
+}
+.card {
+    padding: 3px;
+    background-color: aqua;
+    
+}
+#centro{
+    display: flex;
+    justify-content: center;
+}
+#espacio {
+    display: flex;
+    justify-content: space-between;
+}
